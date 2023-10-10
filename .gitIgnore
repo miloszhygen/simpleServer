@@ -1,0 +1,41 @@
+# temmplate
+# !src/functions/template/ts-node
+
+build
+
+.env
+.env-integration-test
+
+**/stack-*.yml
+**/stack.yml
+
+**/.npmrc
+
+src/functions/secrets
+
+# Root project has no dependencies
+package-lock.json
+
+node_modules
+**/node_modules
+
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+**/.DS_Store
+
+graphql
+
+src/functions/**/.dockerignore
+src/functions/**/.yalc
+src/functions/**/yalc.lock
+src/functions/**/.eslintignore
+src/functions/**/.eslintrc
+
+template
+
+.history/
+
+.terraform
+
+dist
